@@ -1,0 +1,93 @@
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    z-index: 200;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+
+}
+
+/* left side of header */
+.left-section{
+  display: flex;
+ align-items: center;
+}
+.three-line{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.yt-icon{
+    height: 20px;
+}
+
+/* middle side of header */
+.middle-section{
+     display: flex;
+    align-items: center;
+}
+.search-box{
+    height: 36px;
+    width: 350px;
+    border: 1px solid rgba(0,0,0,0.2);
+     padding: 0 10px;
+}
+.search-box::placeholder{
+    font-size: 16px;
+}
+.search-icon{
+    height: 38px;
+    width: 64px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-left: none;
+    background-color: white;
+}
+.search-icon:active{
+     box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+.search-img{
+    height: 24px;
+}
+.voice-search-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 26px;
+    padding-top:5px;
+    margin-left: 5px;
+    border: 0;
+    background-color: rgba(224, 219, 219, 0.2);
+}
+.voice-search-img{
+    height: 24px;
+}
+
+/* Right side of header */
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 24px;
+    margin-left: 29px;
+    width: 195px;
+}
+.create-img{
+    height: 24px;    
+    padding: 8px;   
+}
+.yt-apps-icon{
+    height: 24px;
+}
+.notifications-icon{
+    height: 24px;
+}
+.profile-img{
+    height: 32px;
+    border-radius:22px ;
+}
+
